@@ -1,3 +1,4 @@
+
 import cv2
 import mediapipe as mp
 import time
@@ -48,6 +49,9 @@ def main():
     pTime = 0  # previous time
     cTime = 0  # current time
     cap = cv2.VideoCapture(0)
+    #wCam, hCam = 640, 480
+    #cap.set(3, wCam)
+    #cap.set(4, hCam)
     detector = handDetector()  # no params since we have default params
 
     while True:
