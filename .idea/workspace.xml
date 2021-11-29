@@ -4,11 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e2bc8790-136b-408b-bd80-c0a8393cc05a" name="Changes" comment="hand tracking module finished">
-      <change beforePath="$PROJECT_DIR$/.idea/Handtracking.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Handtracking.iml" afterDir="false" />
+    <list default="true" id="e2bc8790-136b-408b-bd80-c0a8393cc05a" name="Changes" comment="changing volume based on hand finished&#10;TODO add volume bar to the view">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/HandTrackingModule.py" beforeDir="false" afterPath="$PROJECT_DIR$/HandTrackingModule.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/newGameHandTracking.py" beforeDir="false" afterPath="$PROJECT_DIR$/newGameHandTracking.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/VolumeHandControl.py" beforeDir="false" afterPath="$PROJECT_DIR$/VolumeHandControl.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -195,7 +194,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1638125671393</updated>
-      <workItem from="1638125677909" duration="14530000" />
+      <workItem from="1638125677909" duration="16091000" />
     </task>
     <task id="LOCAL-00001" summary="processing the frame">
       <created>1638127221353</created>
@@ -232,7 +231,14 @@
       <option name="project" value="LOCAL" />
       <updated>1638132497480</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="changing volume based on hand finished&#10;TODO add volume bar to the view">
+      <created>1638141955295</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1638141955295</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -254,13 +260,14 @@
     <MESSAGE value="tracking points work so far" />
     <MESSAGE value="added circles" />
     <MESSAGE value="hand tracking module finished" />
-    <option name="LAST_COMMIT_MESSAGE" value="hand tracking module finished" />
+    <MESSAGE value="changing volume based on hand finished&#10;TODO add volume bar to the view" />
+    <option name="LAST_COMMIT_MESSAGE" value="changing volume based on hand finished&#10;TODO add volume bar to the view" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/Handtracking$HandTrackingMin.coverage" NAME="HandTrackingMin Coverage Results" MODIFIED="1638130983362" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Handtracking$newGameHandTracking.coverage" NAME="newGameHandTracking Coverage Results" MODIFIED="1638136780144" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Handtracking$main.coverage" NAME="main Coverage Results" MODIFIED="1638125705090" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/Handtracking$VolumeHandControl.coverage" NAME="VolumeHandControl Coverage Results" MODIFIED="1638141781829" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Handtracking$VolumeHandControl.coverage" NAME="VolumeHandControl Coverage Results" MODIFIED="1638193253322" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Handtracking$HandTrackingModule.coverage" NAME="HandTrackingModule Coverage Results" MODIFIED="1638139852998" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>
