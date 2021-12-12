@@ -4,10 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e2bc8790-136b-408b-bd80-c0a8393cc05a" name="Changes" comment="changing volume based on hand finished&#10;TODO add volume bar to the view">
+    <list default="true" id="e2bc8790-136b-408b-bd80-c0a8393cc05a" name="Changes" comment="Change volume with 2 fingers tracking done!">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HandTrackingModule.py" beforeDir="false" afterPath="$PROJECT_DIR$/HandTrackingModule.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/VolumeHandControl.py" beforeDir="false" afterPath="$PROJECT_DIR$/VolumeHandControl.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,7 +41,31 @@
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
+  </component>
   <component name="RunManager" selected="Python.VolumeHandControl">
+    <configuration name="FingersCounter" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Handtracking" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/FingersCounter.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="true" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="HandTrackingMin" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Handtracking" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -132,28 +154,6 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="main" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="Handtracking" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/main.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <configuration name="newGameHandTracking" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Handtracking" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -179,10 +179,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="Python.VolumeHandControl" />
+        <item itemvalue="Python.FingersCounter" />
         <item itemvalue="Python.HandTrackingModule" />
         <item itemvalue="Python.newGameHandTracking" />
         <item itemvalue="Python.HandTrackingMin" />
-        <item itemvalue="Python.main" />
       </list>
     </recent_temporary>
   </component>
@@ -194,7 +194,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1638125671393</updated>
-      <workItem from="1638125677909" duration="16091000" />
+      <workItem from="1638125677909" duration="20249000" />
+      <workItem from="1638813073601" duration="1613000" />
+      <workItem from="1639044322775" duration="483000" />
+      <workItem from="1639256489636" duration="2447000" />
+      <workItem from="1639259121387" duration="2389000" />
+      <workItem from="1639299925050" duration="2470000" />
     </task>
     <task id="LOCAL-00001" summary="processing the frame">
       <created>1638127221353</created>
@@ -238,7 +243,14 @@
       <option name="project" value="LOCAL" />
       <updated>1638141955295</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Change volume with 2 fingers tracking done!">
+      <created>1638193478998</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1638193478998</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -254,6 +266,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="processing the frame" />
@@ -261,13 +274,14 @@
     <MESSAGE value="added circles" />
     <MESSAGE value="hand tracking module finished" />
     <MESSAGE value="changing volume based on hand finished&#10;TODO add volume bar to the view" />
-    <option name="LAST_COMMIT_MESSAGE" value="changing volume based on hand finished&#10;TODO add volume bar to the view" />
+    <MESSAGE value="Change volume with 2 fingers tracking done!" />
+    <option name="LAST_COMMIT_MESSAGE" value="Change volume with 2 fingers tracking done!" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/Handtracking$HandTrackingMin.coverage" NAME="HandTrackingMin Coverage Results" MODIFIED="1638130983362" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Handtracking$newGameHandTracking.coverage" NAME="newGameHandTracking Coverage Results" MODIFIED="1638136780144" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Handtracking$main.coverage" NAME="main Coverage Results" MODIFIED="1638125705090" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/Handtracking$VolumeHandControl.coverage" NAME="VolumeHandControl Coverage Results" MODIFIED="1638193253322" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/Handtracking$HandTrackingModule.coverage" NAME="HandTrackingModule Coverage Results" MODIFIED="1638139852998" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Handtracking$VolumeHandControl.coverage" NAME="VolumeHandControl Coverage Results" MODIFIED="1639259268808" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Handtracking$HandTrackingModule.coverage" NAME="HandTrackingModule Coverage Results" MODIFIED="1639258160189" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>
